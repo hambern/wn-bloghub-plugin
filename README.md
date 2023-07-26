@@ -1,13 +1,5 @@
-BlogHub - OctoberCMS Plugin
+BlogHub - WinterCMS Plugin
 ===========================
-
-**BlogHub** extends the [RainLab.Blog](https://octobercms.com/plugin/rainlab-blog) OctoberCMS plugin 
-with many necessary and helpful features such as Moderatable Comments, Promotable Tags, Custom Meta 
-Fields, additional Archives, basic Statistics, Views counter and more.
-
-This extension is especially designed for our own OctoberCMS templates, but can also be used by any 
-OctoberCMS user and developer, of course. Check out the documentation for all details.
-
 
 Features
 --------
@@ -33,18 +25,6 @@ be used instead - is not disclosed. You can also disable the use of the login na
 2. The Blog comments currently requires to add the `{% framework %}` October-specific TWIG tag to 
 your template layouts, when not already included. We're working on an AJAX-less / -optional 
 solution for a future update.
-
-
-Requirements
--------------
-- OctoberCMS v2/v3 (tested with latest versions only)
-- PHP 7.4+ / 8.0+
-- [Gregwar/Captcha](https://github.com/Gregwar/Captcha)
-- [RainLab.Blog](https://octobercms.com/plugin/rainlab-blog)
-- **Supports:** [RainLab.User](https://octobercms.com/plugin/rainlab-user) (optional)
-- **Supports:** [RainLab.Pages](https://octobercms.com/plugin/rainlab-pages) (optional)
-- **Supports:** [RainLab.Translate](https://octobercms.com/plugin/rainlab-translate) (optional)
-
 
 Copyright
 ---------
