@@ -11,8 +11,8 @@ use Backend\Models\User as BackendUser;
 use Backend\Widgets\Lists;
 use Cms\Classes\Controller;
 use Cms\Classes\Theme;
-use RainLab\Blog\Controllers\Posts;
-use RainLab\Blog\Models\Post;
+use Winter\Blog\Controllers\Posts;
+use Winter\Blog\Models\Post;
 use RatMD\BlogHub\Behaviors\BlogHubBackendUserModel;
 use RatMD\BlogHub\Behaviors\BlogHubPostModel;
 use RatMD\BlogHub\Models\Comment;
@@ -30,7 +30,7 @@ class Plugin extends PluginBase
      * @var array
      */
     public $require = [
-        'RainLab.Blog'
+        'Winter.Blog'
     ];
 
     /**
@@ -73,7 +73,7 @@ class Plugin extends PluginBase
      */
     public function boot()
     {
-        // Add side menuts to RainLab.Blog
+        // Add side menuts to Winter.Blog
         Event::listen('backend.menu.extendItems', function($manager) {
             $manager->addSideMenuItems('RainLab.Blog', 'blog', [
                 'ratmd_bloghub_tags' => [
