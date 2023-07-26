@@ -1,6 +1,6 @@
 {
     "name": "ratmd/bloghub-plugin",
-    "type": "october-plugin",
+    "type": "winter-plugin",
     "version": "1.3.8",
     "description": "Extends RainLab's Blog extension with custom meta details, additional archives and more.",
     "keywords": [
@@ -10,7 +10,7 @@
         "meta",
         "archives"
     ],
-    "homepage": "https://octobercms.com/plugin/ratmd-bloghub",
+    "homepage": "https://wintercms.com/plugin/ratmd-bloghub",
     "license": "MIT",
     "authors": [
         {
